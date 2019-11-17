@@ -11,6 +11,7 @@ This is still initial proof of concept and not a finalized serivce yet. Checks j
 On device you want to emulate joystick on:
 * Build package
 * Create su terminal session (needed to create uinput evdev). sudo su root
+* . install/setup.bash
 * ros2 run joy_emu_cpp joy_emulator
 * check /dev/input for device number (event##)
 
